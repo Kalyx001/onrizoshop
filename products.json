@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Headphones",
+    "price": 49.99,
+    "image": "images/headphones.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Smart Watch",
+    "price": 89.99,
+    "image": "images/smartwatch.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Bluetooth Speaker",
+    "price": 29.99,
+    "image": "images/speaker.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Fitness Tracker",
+    "price": 39.99,
+    "image": "images/fitness.jpg"
+  }
+]

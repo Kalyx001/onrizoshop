@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Onrizo Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Onrizo</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="#" class="btn-placeholder">Register</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container">
+    <section class="dashboard-section">
+      <h2>Welcome, <span id="dashboard-username"></span>!</h2>
+      <p>This is your dashboard. Here you can view your info and manage your cart.</p>
+      <div class="dashboard-info">
+        <div class="user-info">
+          <h3>User Info</h3>
+          <ul>
+            <li><strong>Username:</strong> <span id="user-info-username"></span></li>
+            <li><strong>Email:</strong> <span id="user-info-email"></span></li>
+          </ul>
+        </div>
+        <div class="cart-info">
+          <h3>Your Cart</h3>
+          <ul id="cart-list"></ul>
+          <button class="btn-main" id="clear-cart">Clear Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Onrizo Shop. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
